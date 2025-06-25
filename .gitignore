@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+.venv/
+venv/
+venv.bak/
+.env
+.idea/  # For PyCharm users
+.vscode/ # For VS Code users (if you want to ignore editor-specific settings)
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+*.egg
+*.manifest
+*.spec
+*.log
+*.swp
+*.swo
+pip-log.txt
+pip-delete-this-arg.txt
+
+# Specific to ML/Data Science projects
+*.pkl
+*.joblib
+*.csv  # Only if your CSVs are generated outputs, otherwise keep them
+*.xlsx
+.ipynb_checkpoints/ # Jupyter notebooks
